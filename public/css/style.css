@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+    font-family: Courier;
+    font-size: 1.0rem;
+}
+
+body {
+    margin: 0;
+}

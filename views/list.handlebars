@@ -1,0 +1,20 @@
+<p>{{userName}}'s To Do List</p>
+
+{{#if showStatus}}
+
+<h6>Show Status is TRUE!!!</h6>
+
+<ul id="list" class="list">
+    {{#each data}}
+        <li class="item" id="item{{id}}">
+
+            <button class="complete">Done: {{completed}}</button>
+            <button class="edit">Edit</button>
+            <span>{{description}}</span>
+            <button class="delete">Delete{{deleted}}</button>
+
+        </li>
+    {{/each}}
+</ul>
+
+{{/if}}
